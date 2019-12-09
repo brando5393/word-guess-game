@@ -1,0 +1,14 @@
+nav a{
+    text-decoration: none;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+
+.nav-link{
+    font-weight: bold;
+
+}
+
+.nav-link:hover{
+    color: #ff0000;
+}
