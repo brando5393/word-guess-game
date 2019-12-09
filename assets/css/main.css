@@ -1,14 +1,18 @@
-nav a{
+nav a {
     text-decoration: none;
-    transition-duration: 3s;
-    transition-timing-function: ease-out;
 }
 
-.nav-link{
+.nav-link {
     font-weight: bold;
 
 }
 
-.nav-link:hover{
+a:hover {
     color: #ff0000;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+.play-btn{
+    color: white;
 }
